@@ -1,0 +1,550 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>XIBION | Productos nutricionales</title>
+        <meta name="description" content="Empresa que ofrece productos y guías nutricionales con el fin de estimular los procesos naturales del cuerpo humano y ayudar a nuestros clientes, según sus necesidades, a alcanzar la condición física que desean de manera saludable.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>        
+        <header>
+			<nav class="mainMenu">
+				<ul class="menuPrimario">
+					<li class="logo menu-item" >
+						<a href="../">
+							<img src="../img/logo.png">
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../">
+							Inicio
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../">
+							Xibion
+						</a>
+						<ul class="escondeMenu">
+							<li class="menu-item">
+								<a href="../nosotros">
+									Nosotros
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../metodosdepago">
+									Metodos de pago
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="javascript:location.reload()">
+									Terminos y condiciones
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../faq">
+									Preguntas frecuentes
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../productos/">
+									Productos
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../tienda/">
+							Tienda
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../oportunidad">
+							Oportunidad de negocio
+						</a>
+					</li>
+				</ul>
+				<ul class="menuSecundario">
+					<li class="menu-item secondMenu tooltip">
+						<a href="../carrito" class="iconCarrito">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+						<div class="tooltiptext"> 																
+							<div class="carritoVacioMini"><h3>Tu carrito esta vacio. </h3> </div>
+							<div class="carritoLlenoMini"> 								
+								<div class="articulosSeleccionadosMini">
+									<div class="articuloMini">
+										<div class="descriptionProductoMini">
+											<img class="imagenProductoMiniCar" src="../img/colageno.png">
+											<div class="productoMini">
+												<h3 class="noTopNoBottom"> PowerDia</h3>
+												<div class="detallesProductoMini">60 pastillas/Info
+												</div>
+											</div>
+										</div>
+										<div class="precioCantidadProductoMini">
+											<h3 class="precioProductoMini noTopNoBottom"> $55,55 </h3>
+											<div class="cantidadProductoMini"> 
+													<div class="botonCantidad" onclick="agregarArticulo()"> + </div>
+													<span class="cantidad">9</span> 
+													<div class="botonCantidad" onclick="quitarArticulo()"> - </div>
+											</div>
+										</div>
+									</div>
+									<div class="articuloMini">
+										<div class="descriptionProductoMini">
+											<img class="imagenProductoMiniCar" src="../img/colageno.png">
+											<div class="productoMini">
+												<h3 class="noTopNoBottom"> PowerDia</h3>
+												<div class="detallesProductoMini">60 pastillas/Info
+												</div>
+											</div>
+										</div>
+										<div class="precioCantidadProductoMini">
+											<h3 class="precioProductoMini noTopNoBottom"> $55,55 </h3>
+											<div class="cantidadProductoMini"> 
+													<div class="botonCantidad" onclick="agregarArticulo()"> + </div>
+													<span class="cantidad">9</span> 
+													<div class="botonCantidad" onclick="quitarArticulo()"> - </div>
+											</div>
+										</div>
+									</div>
+								</div>								
+							</div>		
+							<div class="contenedorSubtotal">								
+								<div class="subtotalMini">		
+									<h4 class="noTopNoBottom"> SUBTOTALES <span class="montoSubtotal"> $110,10  </span>  </h4>
+								</div>
+								<div class="precioCantidadProductoMini">
+									<a href="tienda" class="botonRojoMini"> PAGAR </a> 
+								</div>
+								
+							</div>
+						</div>	
+					</li>
+					<li class="menu-item secondMenu tooltip">
+						<a href="#">
+							<i class="fa fa-list" aria-hidden="true"></i>
+						</a>
+						<div class="tooltiptext">
+							<div class= "wishList">
+								<h4 class="noTopNoBottom"> TUS LISTAS</h4>
+								<div>
+									<ul>
+										<li> 
+											<a href="" onclick=""><img src="../img/colageno.png"> <span> Colageno</span></a>
+										</li>									 
+										<li> 
+											<a href="" onclick=""><img src="../img/powermax6.png"> <span> Powermax6</span></a>
+										</li> 
+										<li>
+											<a href="" onclick=""><img src="../img/wheyprotein.png"> <span> Wheyprotein</span></a>
+										<li> 
+											<a href="" onclick="">Crear una lista</a>
+										</li>
+										<li> 
+											<a href="" onclick="">Encontrar una lista</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="menu-item secondMenu separador">
+						|
+					</li>
+					<li class="menu-item secondMenu">
+						<a href="mailto:info@xibion.com">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="menu-item secondMenu iconoMenuMovil" >
+						<a href="#" onclick="mostrarMenuMovil()">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="menuMovil" class="menuMovilOculto">
+				<ul>
+					<li> <a href="../"> <b>XIBION </a></b>
+						<ul>
+							<li><a href="../nosotros">NOSOTROS </a></li>
+							<li><a href="../metodosdepago">METODOS DE PAGO</a></li>
+							<li><a href="javascript:location.reload()">TERMINOS Y CONDICIONES</a></li>
+							<li><a href="../faq">PREGUNTAS FRECUENTES</a></li>
+							<li><a href="../productos">PRODUCTOS</a></li>
+						</ul>
+					</li>
+
+					<li><a href="../tienda"><b>TIENDA</b></a></li>
+					<li><a href="../oportunidad"><b>OPORTUNIDAD DE NEGOCIO</b></a></li>
+				</ul>
+			</div>
+			<div class="slider">
+				<div class="terminosSlide1">									
+					<h1 class ="tituloSlider center"> TÉRMINOS Y CONDICIONES </h1>						
+				</div>				
+			</div>
+		</header>
+		<section>			
+			<div class="terminosycondiciones">
+				<h2 class="tituloTerminos"> TERMINOS Y CONDICIONES DE USO </h2>
+				<table class="terminos">				
+					<tr>
+						<td>
+							1. Introducción <br>
+							2. Realizar una solicitud <br>
+							3. Precio y pago <br>
+							4. Entrega  <br>
+							5. Devoluciones y reembolso <br>
+							6. Las cancelaciones <br>
+							7. Disponibilidad del productos <br>
+							8. Sitio web de exención de responsabilidad <br>
+							9. Contacto <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							1. Introducción
+							
+							Su acceso y uso de [www.xibion.com] está sujeto exclusivamente a estos Términos y Condiciones. Si continúa utilizando este sitio web, usted acepta cumplir con los siguientes términos y condiciones y limitaciones de responsabilidad que aparecen en este aviso, junto con nuestra política de privacidad.
+						</td>
+					</tr>
+					
+					<tr>
+						<td>		
+							Le recomendamos que lea estos términos y condiciones antes de ordenar de nuestro sitio, ya que se aplican a todas las transacciones a través de la página web. Si usted no acepta estos términos y condiciones, le recomendamos que no utilice este sitio web.
+						</td>
+					</tr>
+					<tr>
+						<td>		
+						Al ordenar cualquier producto de este sitio está indicando su aceptación de estos términos y condiciones.
+						</td>		
+					</tr>
+					
+					<tr>
+						<td>		
+						2. Realizar una solicitud
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+						Es posible realizar un pedido siguiendo las instrucciones en pantalla. Hemos hecho el proceso de pedido seguro para todos los usuarios [www.xibion.com] y se puede comprar en Internet con nosotros con mayor seguridad y tranquilidad. Usted tiene la posibilidad de pagar a través de tarjeta de crédito y pago de PayPal, Amazon Para obtener más información consulte Pago Precio y Forma de Pago a continuación.
+						</td>		
+					</tr>					
+					<tr>
+						<td>		
+						Al realizar un pedido a través de nuestro sitio, usted garantiza que:
+						</td>		
+					</tr>					
+					
+					<tr>
+						<td>		
+						a) Tiene por lo menos 18 años de edad.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+						b) que haya confirmado con las autoridades pertinentes nuestros productos están autorizados a ser importados en su país; y,
+						</td>		
+					</tr>
+					<tr>
+						<td>					
+							c) Ha examinado los ingredientes y no es alérgico a, o son sensibles a cualquiera de los ingredientes dentro de nuestros productos.
+						<td>		
+					</tr>
+					<tr>
+						<td>					
+							3. Precio y pago
+						<td>		
+					</tr>
+					<tr>	
+						<td>			
+							Todos los precios mostrados en la web incluyen TAX lo que el precio en el sitio web es el precio final que pagará (envío no es gratuito). Los precios están sujetos a cambios sin previo aviso pero los cambios no afectarán a los pedidos que ya han sido colocados.
+						</td>		
+					</tr>
+					<tr>	
+						<td>					
+						a) Se le debe pagar por la mercancía en su totalidad en el momento del pedido
+						</td>		
+					</tr>
+					<tr>		
+						<td>		
+							b) Los pagos de todos los productos sólo se pueden hacer por PAYPAL, transferencias, Amazon Payments, westerm UNION, TARJETA DE CRÉDITO.
+						</td>		
+					</tr>
+					<tr>	
+						<td>					
+							c) El pago se hará por usted por el siguiente el enlace seguro de terceros.
+						<td>		
+					</tr>
+
+					<tr>
+						<td>				
+							Después de que se reciba el pago por PayPal, usted recibirá una confirmación del pago de PayPal. PayPal continuación, nos informan por medio de un correo electrónico de confirmación con su referencia y los detalles de los productos que ha comprado orden. Te recomendamos revisar todos los detalles son correctos en la apertura de este correo electrónico y nos informe inmediatamente si necesita hacer algún cambio. [Www.xibion.com] Si usted no hace corregir cualquier error por correo electrónico antes de su orden que es enviada, por favor devuelva los productos de acuerdo con nuestra política de devoluciones a continuación.
+						</td>		
+					</tr>
+					<tr>	
+						<td>			
+							4. Entrega
+						</td>		
+					</tr>
+					<tr>	
+						<td>			
+							Todos los pedidos son enviados el mismo día si pedidas antes de 16:30. Todos los pedidos recibirán automáticamente Entrega estándar gratuito; a menos que elija para seleccionar una de nuestras opciones de envío urgente. Entrega estándar gratuita tiene como objetivo ofrecer sus mercancías por el siguiente día hábil después de la publicación, esto incluye sábados – el momento preciso de una entrega no se puede especificar.
+						</td>		
+					</tr>
+					<tr>	
+						<td>			
+							Hacemos el proceso de entrega lo más simple posible y somos capaces de enviar sus mercancías, ya sea en su hogar o lugar de trabajo, dentro de los EE.UU.. No podemos entregar mercancías en el mismo orden a varias direcciones, si esto es necesario hacer pedidos por separado para cada dirección.
+						</td>		
+					</tr>
+					<tr>	
+						<td>			
+							Paquetes de servicios de entrega estándar no requieren una firma, no obstante recomendamos debido a la variación del tamaño de los paquetes – Si sabe que va a estar fuera, consiga su orden entregada a una dirección alternativa cuando realice el pago – por ejemplo, su lugar de trabajo o la casa de un amigo.
+						</td>		
+					</tr>
+					<tr>	
+						<td>			
+						5. Devoluciones y reembolsos
+						</td>		
+					</tr>
+					<tr>
+						<td>				
+							Creemos que va a estar plenamente satisfecho con su compra en nuestro sitio web, sin embargo, si este no es el caso, le devolveremos cualquier orden no está satisfecho con – si devuelve el orden en el plazo de 3 días de la fecha indicada en la confirmación del pedido.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							Para recibir un reembolso que primero nos debe notificar mediante el envío de un correo electrónico a [INFO@XIBION.COM] que contiene su número de pedido y una breve descripción de por qué usted está deseando devolver su pedido.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							Todos los artículos devueltos deben estar en el mismo estado en que estaban cuando se entrega – contiene el contenido original de la orden original (por ejemplo, varios órdenes de botella). En el caso de una orden de la botella se colocó múltiple – botellas adicionales deben ser devueltos en una condición sin abrir y reventa.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							Una vez volvimos, le devolveremos todo el dinero que ha pagado a nosotros, se reintegrará en su totalidad fue tomada en el mismo pago de la cuenta bancaria.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							6. Las cancelaciones
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							Usted tiene el derecho de cancelar su pedido en cualquier momento antes de que el artículo ha sido enviado para su entrega – 15:30 en el día de realizar su pedido, ya que todos los pedidos se despachan el mismo día a las 16:30. En el caso de que no cumplir este plazo, tendrá que volver a su fin después de la entrega. Consulte la política de devoluciones anteriormente. Si desea organizar una devolución por favor, póngase en contacto con nosotros [INFO@XIBION.COM].
+						</td>		
+					</tr>
+					<tr>
+					 	<td>
+							7. Disponibilidad del producto
+					 	</td>
+					</tr>
+					<tr>
+						<td>		
+							Nuestros sistemas de inventario y procesos de fabricación nos permite hacer una garantía al cliente que cualquier orden recibida, independientemente del producto y la cantidad, siempre vamos enviado su pedido en el mismo día antes de la 16:30 cortó tiempo.
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							8. Sitio web de exención de responsabilidad
+						</td>		
+					</tr>
+					<tr>
+						<td>		
+							[Www.xibion.com] no acepta ninguna responsabilidad por cualquier pérdida, alteración o daño a sus datos o su sistema informático que puede ocurrir durante el uso de material derivado de este sitio web. [Www.xibion.com] no garantiza que las funciones contenidas en el material en este sitio será ininterrumpido o libre de errores. También, [www.xibion.com] no garantiza que los defectos serán corregidos o que este sitio o el servidor que lo pone a disposición estén libres de virus o representan la completa funcionalidad, precisión y fiabilidad de los materiales.
+						</td>		
+					</tr>
+					<tr>	
+						<td>																			
+							En ningún caso [www.xibion.com] será responsable por cualquier pérdida o daño, incluyendo, sin limitación, indirectos, o pérdida o daño consecuente, o cualquier pérdida o daño que resulte del uso o falta de uso, datos o beneficios que surjan de o en conexión con el uso del sitio web XIBION.
+						</td>		
+					</tr>
+					<tr>	
+						<td>											
+							Hipervínculos: Usted no tiene que pedir permiso para acceder directamente a nuestra página web. Sin embargo, no permitimos que nuestras páginas sean cargadas en marcos en su sitio web. Nosotros no tenemos la responsabilidad de los enlaces y la vinculación no debemos sido visto como un respaldo de ningún tipo de la página web que une a nosotros.
+						</td>		
+					</tr>
+					<tr>
+						<td>								
+							Variaciones: que muchos de revisar este aviso legal, política de privacidad o nuestros términos y condiciones de vez en cuando, por favor revise esta página periódicamente para asegurarse de que está familiarizado con la versión actual.
+						</td>		
+					</tr>
+					<tr>	
+						<td>										
+							Acuerdo: Esta renuncia, junto con nuestra política de privacidad, constituye el acuerdo completo entre usted y nosotros en relación con el uso de nuestro sitio web, y sustituye todos los acuerdos anteriores con respecto a su uso de este sitio web.
+						</td>		
+					</tr>
+					<tr>	
+						<td>				
+							9. Contacto
+						</td>		
+					</tr>
+					<tr>
+						<td>							
+							Nos gustaría animar a todos los clientes en contacto con nosotros si tienen alguna pregunta, duda, requieren dieta y ejercicio consejos o les gustaría un retorno.
+						</td>		
+					</tr>					
+					<tr>
+						<td>													
+						XIBION ©
+						</td>		
+					</tr>
+					<tr>
+					<td>				
+					Instagram Oficial
+					</td>		
+					</tr>
+					<tr>
+						<td>													
+							@xibionamerica
+						</td>		
+					</tr>
+					<tr>
+						<td>														
+							Facebook Oficial
+						</td>		
+					</tr>
+					<tr>
+					<td>				
+						<strong>
+						@xibionamericaoficial <br>
+						Xibion America Corporation <br>
+						DORAL FL, 33178<br>
+						+1-786-908-8310<br>
+						WWW.XIBION.COM <br>	
+						</strong>
+					</td>		
+					</tr>
+				</table>
+			</div>
+
+			<div class="fuerteSaludable">								
+				<div class="textofuerteSaludable">
+					<h1 class="center">
+						SIEMPRE FUERTE Y SALUDABLE
+					</h1>						
+				</div>				
+			</div>
+
+		</section>
+		<footer>
+			<div class="franjaNewsletter">
+				<h2>
+					Obten descuentos y promociones en tu correo
+				</h2>
+				<form method="post" action="process.php">
+					<input type="text" name="correo" required>
+					<button value="Suscribirme" type="submit">Suscribirme</button>
+				</form>
+			</div>
+			<div class="lowerFooter">				
+				<!-- COLUMNA 1 -->
+				<div class="logoFooter columnaFooter">
+					<img src="../img/logo.png">
+				</div>
+				<!-- COLUMNA 2 -->
+				<div class="columnaFooter">
+					<h2>
+						Tienda
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="#">
+								Abdomen
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Bum Bum
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Pérdida de Peso
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 3 -->
+				<div class="columnaFooter">
+					<h2>
+						Cliente
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="#">
+								Carrito
+							</a>
+						</li>
+						<li>
+							<a href="../oportunidad">
+								Oportunidad de negocio
+							</a>
+						</li>
+						<li>
+							<a href="../metodosdepago">
+								Formas de pago
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 4 -->
+				<div class="columnaFooter">
+					<h2>
+						Xibion
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="javascript:location.reload()">
+								La empresa
+							</a>
+						</li>
+						<li>
+							<a href="javascript:location.reload()">
+								Misión
+							</a>
+						</li>
+						<li>
+							<a href="javascript:location.reload()">
+								Visión
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 5 -->
+				<div class="columnaFooter linksSociales">
+					<a href="https://www.facebook.com/xibionamericaoficial"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com/xibionamericaoficial"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/xibionamericaoficial"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="closerBar">
+				<div class="copyright">
+					Xibion America | Todos los derechos reservados (2017)
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="../js/jquery-3.2.0.slim.min.js"></script>		
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="https://use.fontawesome.com/7a2cf7b95f.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Ubuntu:400,400i,500,500i,700,700i|Abel|Teko" rel="stylesheet">
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../slick/slick.min.js"></script>
+		<script src="../js/plugins.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/carrito.js"> </script>
+    </body>
+</html>

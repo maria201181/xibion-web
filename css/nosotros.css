@@ -1,0 +1,172 @@
+.misionVision {
+    width: 100%;
+    height: 470px;
+    position: relative;
+    background-image: url(../img/mision.jpg); 
+    background-size: cover;
+    background-position: center bottom;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+
+.vision {
+    width: 50%;
+    height: 370px;    
+    background-size: cover;
+    display: inline-block;
+    float: right;
+    color:#FFFFFF;
+    text-align: justify;
+}
+
+p.claseMision {
+    max-width: 90%;
+    margin: 0 auto; 
+    position: relative;
+    top: 10%;
+} 
+
+.tituloVision {
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 40px;
+
+} 
+
+.textosVision {    
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.tresTerciosDiv {
+    width: 27%;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    margin: 0 3%;   
+}
+
+
+.WrapperTresDiv {
+    width: 90%;
+    margin:30px auto;
+    height: auto;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1100px;
+}
+
+.noTopNoBottom {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold
+}
+
+.wapper_Pagos_Btn {
+    position: relative;
+   
+    padding: 39px;
+    border: 1px solid;
+    background: #cd1d1e ;
+    color:white;
+    text-transform: uppercase;
+}
+
+.pagosYCondiciones {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 400px;
+} 
+
+.MainWrapperPagos_Btn .botonTransparente {
+    position: absolute;
+    top: 40px;
+    border: 1px solid white;
+    display: inline-block;   
+    border-width: 2px;
+    color:white;
+    padding: 6px 56px;
+}
+
+.MainWrapperPagos_Btn .botonTransparente :hover{
+    background-color: white;
+    color: #ea1a22;    
+    border: 1px solid white;
+}
+
+a:-webkit-any-link{
+    color:white;
+}
+
+div.parrafoInicialNosotros p {
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+.slider .nosotrosSlide1 {
+    background-image: url(../img/banner1-nosotros.jpg);    
+    background-size: cover;
+    background-position: top center;
+    position:relative;
+}
+
+.dosDivs{
+
+    display: inline-block;
+    float: left;
+    width: 46%;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 0px 2%;
+    text-decoration: none;
+    padding-bottom: 3%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.dosDivs h1 {
+	line-height:1;
+    text-align: left;
+}
+
+.dosDivsWrapper{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 92%;
+    margin: 0 4%;
+    text-decoration: none;
+    margin-top:4%;
+
+}
+
+.justified{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.wrapperProductos td {
+    padding: 20px;
+}
+
+.parrafoInicialNosotros {
+    max-width: 1100px;
+    font-family: 'Ubuntu', sans-serif;
+     margin: 0 auto;
+}
+
+.WrapperTresDiv + .franjaRoja .boton {
+top: 17px;
+position: relative;
+}
+
+.WrapperTresDiv + .franjaRoja h2.noTopNoBottom {
+    line-height: 1;
+    font-size: 28px;
+}
+.WrapperTresDiv + .franjaRoja .boton {
+    top: 6px;
+}

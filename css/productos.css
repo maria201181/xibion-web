@@ -1,0 +1,143 @@
+.slider .productosSlide1 {
+    background-image: url(../img/banner1-productos.jpg);
+    background-size: cover;
+    background-position: top center;
+    position:relative;
+}
+
+
+.cuerpoDeseas {    
+    min-height: 400px;
+    background-image: url(../img/cuerpo-deseas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-left: 5%;
+    line-height: 1;
+    width: 95%;
+}
+
+.catalogoProductos { 
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.catalogoProductos h2 br {
+    display: none;
+}
+
+.menuLateralProductos {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    background: black;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.productos {    
+    display: inline-block;
+    font-size: 0;
+    float: right;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: white;
+    width: 70%;
+    padding-top: 20px;
+
+}
+
+.productos>div: {
+   max-width: 900px;
+   display: inline-block;     
+}
+
+.menuLateralProductos ul {
+    margin-top: 0px;
+    display: inline-block;
+    padding-bottom: 20px;
+    width: 78%;
+    line-height: 1;
+}
+
+.menuLateralProductos li {
+    width: 100%;
+}
+
+.menuLateralProductos a {
+    color: white;
+    font-weight: 500;
+}
+
+.typeBusqueda {
+    margin-top: 20px;
+}
+
+.productos .imagenProducto {
+    max-width: 300px;
+    max-height: 190px;
+}
+
+.nombreProducto { 
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.productos .producto {
+    display: inline-block;
+    position: relative;    
+}
+
+.productos .revisaPlanes {
+    background-color: #cd1d1e;
+    margin: 15px 0px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+}
+
+.productos .revisaPlanes a{
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 1px solid;
+    margin: 0px 60px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.productos .revisaPlanes a:hover{    
+    background-color: white;    
+    color: #ea1a22;
+}
+
+
+.cuerpoDeseas h1 {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.franjaNewsletter input[type="text"] {
+    height: 20px;
+    padding: 2px;
+    top: 1px;
+    position: relative;
+    margin: 20px;
+}
+

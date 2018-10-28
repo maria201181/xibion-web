@@ -1,0 +1,35 @@
+.FAQ {
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 0px;
+    margin-right: 1%;
+    margin-bottom: 4%;  
+    padding: 1%;
+    text-align: justify;
+    display: inline-block;    
+}
+
+.borderColorFAQ {
+    background-color: #f7f7f7;
+    border-top: 3px solid #efefef;
+    border-left: 3px solid #efefef;
+}
+
+.tituloFAQ {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    margin-top: 65px;
+}
+
+.tablaFAQ {
+    position: relative;
+    margin: 20px auto;
+}
+
+.slider .faqSlide1 {
+    background-image: url(../img/banner1-faq.jpg);    
+    background-size: cover;
+    position:relative;
+}

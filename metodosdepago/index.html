@@ -1,0 +1,395 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>XIBION | Productos nutricionales</title>
+        <meta name="description" content="Empresa que ofrece productos y guías nutricionales con el fin de estimular los procesos naturales del cuerpo humano y ayudar a nuestros clientes, según sus necesidades, a alcanzar la condición física que desean de manera saludable.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/main.css">
+        
+    </head>
+    <body>        
+        <header>
+			<nav class="mainMenu">
+				<ul class="menuPrimario">
+					<li class="logo menu-item" >
+						<a href="../">
+							<img src="../img/logo.png">
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../">
+							Inicio
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../">
+							Xibion
+						</a>
+						<ul class="escondeMenu">
+							<li class="menu-item">
+								<a href="../nosotros/">
+									Nosotros
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="javascript:location.reload()">
+									Metodos de pago
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../terminosycondiciones">
+									Terminos y condiciones
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../faq">
+									Preguntas frecuentes
+								</a>
+							</li>
+							<li class="menu-item">
+								<a href="../productos">
+									Productos
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../tienda">
+							Tienda
+						</a>
+					</li>
+					<li class="menu-item menuGrande">
+						<a href="../oportunidad">
+							Oportunidad de negocio
+						</a>
+					</li>
+				</ul>
+				<ul class="menuSecundario">
+					<li class="menu-item secondMenu tooltip">0
+						<a href="../carrito" class="iconCarrito">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+						<div class="tooltiptext"> 																
+							<div class="carritoVacioMini"><h3>Tu carrito esta vacio. </h3> </div>
+							<div class="carritoLlenoMini"> 								
+								<div class="articulosSeleccionadosMini">
+									<div class="articuloMini">
+										<div class="descriptionProductoMini">
+											<img class="imagenProductoMiniCar" src="../img/colageno.png">
+											<div class="productoMini">
+												<h3 class="noTopNoBottom"> PowerDia</h3>
+												<div class="detallesProductoMini">60 pastillas/Info
+												</div>
+											</div>
+										</div>
+										<div class="precioCantidadProductoMini">
+											<h3 class="precioProductoMini noTopNoBottom"> $55,55 </h3>
+											<div class="cantidadProductoMini"> 
+													<div class="botonCantidad" onclick="agregarArticulo()"> + </div>
+													<span class="cantidad">9</span> 
+													<div class="botonCantidad" onclick="quitarArticulo()"> - </div>
+											</div>
+										</div>
+									</div>
+									<div class="articuloMini">
+										<div class="descriptionProductoMini">
+											<img class="imagenProductoMiniCar" src="../img/colageno.png">
+											<div class="productoMini">
+												<h3 class="noTopNoBottom"> PowerDia</h3>
+												<div class="detallesProductoMini">60 pastillas/Info
+												</div>
+											</div>
+										</div>
+										<div class="precioCantidadProductoMini">
+											<h3 class="precioProductoMini noTopNoBottom"> $55,55 </h3>
+											<div class="cantidadProductoMini"> 
+													<div class="botonCantidad" onclick="agregarArticulo()"> + </div>
+													<span class="cantidad">9</span> 
+													<div class="botonCantidad" onclick="quitarArticulo()"> - </div>
+											</div>
+										</div>
+									</div>
+								</div>								
+							</div>		
+							<div class="contenedorSubtotal">								
+								<div class="subtotalMini">		
+									<h4 class="noTopNoBottom"> SUBTOTALES <span class="montoSubtotal"> $110,10  </span>  </h4>
+								</div>
+								<div class="precioCantidadProductoMini">
+									<a href="tienda" class="botonRojoMini"> PAGAR </a> 
+								</div>
+								
+							</div>
+						</div>	
+					</li>
+					<li class="menu-item secondMenu tooltip">
+						<a href="#">
+							<i class="fa fa-list" aria-hidden="true"></i>
+						</a>
+						<div class="tooltiptext">
+							<div class= "wishList">
+								<h4 class="noTopNoBottom"> TUS LISTAS</h4>
+								<div>
+									<ul>
+										<li> 
+											<a href="" onclick=""><img src="../img/colageno.png"> <span> Colageno</span></a>
+										</li>									 
+										<li> 
+											<a href="" onclick=""><img src="../img/powermax6.png"> <span> Powermax6</span></a>
+										</li> 
+										<li>
+											<a href="" onclick=""><img src="../img/wheyprotein.png"> <span> Wheyprotein</span></a>
+										<li> 
+											<a href="" onclick="">Crear una lista</a>
+										</li>
+										<li> 
+											<a href="" onclick="">Encontrar una lista</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="menu-item secondMenu separador">
+						|
+					</li>
+					<li class="menu-item secondMenu">
+						<a href="mailto:info@xibion.com">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="menu-item secondMenu iconoMenuMovil" >
+						<a href="#" onclick="mostrarMenuMovil()">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="menuMovil" class="menuMovilOculto">
+				<ul>
+					<li> <a href="../"> <b>XIBION </a></b>
+						<ul>
+							<li><a href="../nosotros">NOSOTROS </a></li>
+							<li><a href="javascript:location.reload()">METODOS DE PAGO</a></li>
+							<li><a href="../terminosycondiciones">TERMINOS Y CONDICIONES</a></li>
+							<li><a href="../faq">PREGUNTAS FRECUENTES</a></li>
+							<li><a href="../productos">PRODUCTOS</a></li>
+						</ul>
+					</li>
+
+					<li><a href="../tienda"><b>TIENDA</b></a></li>
+					<li><a href="../oportunidad"><b>OPORTUNIDAD DE NEGOCIO</b></a></li>
+				</ul>
+			</div>
+			<div class="slider">				
+				<div class="metodosPagoSlide1">					
+					<h1 class ="tituloSlider center"> METÓDOS DE PAGO </h1>					
+				</div>				
+			</div>
+		</header>
+		<section>
+			
+			 <div class="dosDivsWrapper">
+			
+				<div class="dosDivs">
+
+					<h1 class="noTopNoBottom">TRANSFERENCIA O DEPOSITO / CONSIGNACIÓN BANCARIA</h1>
+					
+					<p class="justified">Al momento de finalizar tu compra, si has seleccionado el método de pago de deposito o de transferencia bancaria tendrás un (01) días hábiles para hacer el pago o de lo contrario tu orden será cancelada automáticamente por el sistema. A continuación las cuentas para depositar o transferir.
+					</p>
+
+						<p class="noTopNoBottom">
+							<strong>Xibion Corp</strong>
+						</p><br>
+
+						<p class="noTopNoBottom">
+							<strong>Bank of América</strong>
+						</p>
+
+						<p class="noTopNoBottom">
+							<strong>Account Number:2290 4918 8405</strong>
+						</p>
+
+						<p class="noTopNoBottom">
+							<strong>Routing: 063100277</strong>
+						</p>
+				</div>
+
+
+				<div class="dosDivs">
+
+
+					<h1 class="noTopNoBottom">TARJETA DE CRÉDITO VISA MASTERCARD MERCADOPAGO</h1>
+					<p class="justified">
+					Bajo esta modalidad de pago, ingresa los datos de tu tarjeta de credito una sola vez en nuestra página, esto se procesará instantáneamente. Los pedidos s completan con la información requerida de las tarjetas de crédito y no se le cobrará ningún cargo adicional por el uso de las mismas.. Por razones de seguridad, en ciertos casos, sera necesario responder a un cuestionario sencillo con informacion confidencial del dueño de la tarjeta.<br><br>
+
+					En Xibion puedes tener la certeza de que tu numero de tarjeta sera protegido bajo los estandares de encriptacion lideres en la industria. Garantizamos una experiencia de compra segura en nuestro sitio, a través del certificado de seguridad SSL(Secure Sockets Layer) de RapidSSL.<br><br>
+
+					Máxima seguridad, Privacidad absoluta. Nadie verá los datos de tu tarjeta de crédito. Jamás. Cumplimos con los estandares mas exigentes de seguridad.<br><br>
+
+					<strong>AMAZON PAYMENT</strong><br><br>
+
+					Para poder  utilizar este metodo de pago, puedes pagar directamente desde la pasarela o utiulizar tu cuenta. Asegurate que tu cuenta ya esté validada por Amazon para poder hacer pagos en www.xibion.com sin inconvenientes.
+					<br><br>
+
+					<strong>PAYPAL</strong><br><br>
+
+					Para poder utilizar este metodo de pago, puedes pagar directamente desde la pasarela o utilizar tu cuenta. Una vez que hayas asociado tus tarjetas de credito a tu cuenta Paypal, podrás hacer pagos simplemente iniciando sesion con tu correo electronico y contraseña, y eligiendo la tarjeta que deseas utilizar para completar el pago. Para más información www.paypal.com<br><br>
+
+					<strong>PAYU</strong><br><br>
+
+					Para poder utilizar este metodo de pago, puedes pagar directamente desde la pasarela o utilizar tu cuenta. Al momento en que www.xibion.com confirme tu pago, te enviará tu pedido.
+				</p>
+
+				</div>
+			
+			</div>
+
+			<div class="franjaMetodosDePago">				
+				<div class="contenidoMetodosDePago">
+					<h2>
+						Métodos de pago
+					</h2>
+					<div class="grupoMetodosPago">
+						<img src="../img/mastercard_logo.png" class="pagoIco">
+						<img src="../img/diners_club_logo.png" class="pagoIco">
+						<img src="../img/paypal_logo.png" class="pagoIco">
+					</div>
+					<div class="grupoMetodosPago">
+						<img src="../img/mastercard_logo.png" class="pagoIco">
+						<img src="../img/diners_club_logo.png" class="pagoIco">
+						<img src="../img/paypal_logo.png" class="pagoIco">
+						<img src="../img/american_express_logo.png" class="pagoIco">
+						<img src="../img/visa_logo.png" class="pagoIco">						
+						<img src="../img/ebay_logo.png" class="pagoIco">
+					</div>
+					<div class="grupoMetodosPago">
+						<img src="../img/amazon_logo.png" class="pagoIco">
+						<img src="../img/dhl_logo.png" class="pagoIco">					
+						<img src="../img/fedex_logo.png" class="pagoIco">
+					</div>
+					<div class="grupoMetodosPago">
+						<img src="../img/bank_of_america_logo.png" class="pagoIco">
+					</div>
+				</div>
+			</div>
+			
+
+		</section>		
+
+		<footer>
+			<div class="franjaNewsletter">
+				<h2>
+					Obten descuentos y promociones en tu correo
+				</h2>
+				<form method="post" action="process.php">
+					<input type="text" name="correo" required>
+					<button value="Suscribirme" type="submit">Suscribirme</button>
+				</form>
+			</div>
+			<div class="lowerFooter">
+				<!-- COLUMNA 1 -->
+				<div class="logoFooter columnaFooter">
+					<img src="../img/logo.png">
+				</div>
+				<!-- COLUMNA 2 -->
+				<div class="columnaFooter">
+					<h2>
+						Tienda
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="../productos">
+								Abdomen
+							</a>
+						</li>
+						<li>
+							<a href="../productos">
+								Bum Bum
+							</a>
+						</li>
+						<li>
+							<a href="../productos">
+								Pérdida de Peso
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 3 -->
+				<div class="columnaFooter">
+					<h2>
+						Cliente
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="#">
+								Carrito
+							</a>
+						</li>
+						<li>
+							<a href="../oportunidad">
+								Oportunidad de negocio
+							</a>
+						</li>
+						<li>
+							<a href="javascript:location.reload()">
+								Formas de pago
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 4 -->
+				<div class="columnaFooter">
+					<h2>
+						Xibion
+					</h2>
+					<ul class="LinksDeInteres">
+						<li>
+							<a href="../nosotros">
+								La empresa
+							</a>
+						</li>
+						<li>
+							<a href="../nosotros">
+								Misión
+							</a>
+						</li>
+						<li>
+							<a href="../nosotros">
+								Visión
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- COLUMNA 5 -->
+				<div class="columnaFooter linksSociales">
+					<a href="https://www.facebook.com/xibionamericaoficial"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					<a href="https://www.twitter.com/xibionamericaoficial"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/xibionamericaoficial"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="closerBar">
+				<div class="copyright">
+					Xibion America | Todos los derechos reservados (2017)
+				</div>
+			</div>		
+		</footer>
+		<script type="text/javascript" src="../js/jquery-3.2.0.slim.min.js"></script>		
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="https://use.fontawesome.com/7a2cf7b95f.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Ubuntu:400,400i,500,500i,700,700i|Abel|Teko" rel="stylesheet">
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../slick/slick.min.js"></script>
+		<script src="../js/plugins.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/carrito.js"> </script>
+    </body>
+</html>

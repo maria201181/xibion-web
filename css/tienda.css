@@ -1,0 +1,80 @@
+
+.slider .tiendaSlide1 {
+    background-image: url(../img/banner1-tienda.jpg);    
+    background-size: cover;
+    position:relative;
+}                
+
+.imagen2Tienda {
+    background-image: url(../img/tienda-mini-banner-1.jpg);
+    background-size: cover;
+    height: 300px;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.imagen3Tienda {
+    background-image: url(../img/tienda-mini-banner-2.jpg);
+    background-size: cover;
+    height: 300px;
+    display: inline-block;
+    width: 49%;
+    float: right;    
+    position: relative;    
+    
+}
+
+.imagen3Tienda h3 {
+	font-size: 23px;
+    color: #4e4444;
+    position: absolute;
+}
+
+.imagen3Tienda .t1{        
+    top: 27%;
+    left: 46%;
+}
+
+.imagen3Tienda .t2{        
+    top: 43%;
+    left: 40%;
+    line-height: 1;
+}
+
+.mitad {
+    width: 48%;
+    display: inline-block;
+}
+
+.flecha {
+    background-color: black;
+    font-size: 0px;
+    width: 30%;
+    display: inline-block;
+    padding: 2%;
+    float: left;
+    letter-spacing: -10px;
+    text-align: center;
+}
+
+.flecha div {
+    font-size: 20px;
+    
+}
+
+.comprarAhora {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 0px;
+    padding: 2%;
+    float:left;
+    text-align: center;
+}
+
+.comprarAhora div {
+    font-size: 20px;
+}
+
+
